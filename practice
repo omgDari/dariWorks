@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+
+{
+    string fullName;
+    string loverName;
+
+    cout << "Type your full name: ";
+    getline (cin, fullName);
+
+    cout << "Type your lover's name: ";
+    getline (cin, loverName);
+
+    cout << "Your name is: " << fullName << endl;
+    cout << "And I Love you " << fullName << endl;
+    cout << "By: " <<loverName << endl ;
+
+    cout << "mwa mwa" <<":*"<< endl;
+
+    return 0;
+
+
+}
